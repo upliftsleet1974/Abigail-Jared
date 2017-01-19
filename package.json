@@ -1,0 +1,10 @@
+{
+  "name": "Jared And Abigail",
+  "version": "1.0.0",
+  "description": "Website",
+  "main": "index.html",
+  "scripts": {
+    "start": "NODE_ENV=production harp server -p $PORT",
+    "dev": "harp server"
+  },
+}
