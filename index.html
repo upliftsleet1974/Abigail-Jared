@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Jared & Abigail somethig meant to be!</title>
+    <meta name="description" content="Jared <3 Abigail" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Codeply">
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/animate.min.css" />
+    <link rel="stylesheet" href="./css/ionicons.min.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <nav id="topNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#first">Jared & Abigail</a>
+            </div>
+            <div class="navbar-collapse collapse" id="bs-navbar">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a class="page-scroll" href="#three">Gallery</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header id="first">
+        <div class="header-content">
+            <div class="inner">
+                <h1 class="cursive">Take My Hand We Will Get Through This Together</h1>
+                <hr>
+                <div id="countup"><p>It's been</p>
+                <p id="days">00</p>
+                <p class="timeRefDays">days</p>
+                <p id="hours">00</p>
+                <p class="timeRefHours">hours</p>
+                <p id="minutes">00</p>
+                <p class="timeRefMinutes">minutes</p>
+                <p id="seconds">00</p>
+                <p class="timeRefSeconds">second</p>
+              </div>
+
+            </div>
+        </div>
+    </header>
+
+<div class='tcw' data-id='Countdown-7586' style='position: relative; display: inline-block; margin: 0 auto; width: 100%'><a href="//www.tickcounter.com/countdown/7586/we-wont-be-separated-forever-so-until-then-lets-stay-strong-together" title="We won&#39;t be separated forever. So until then, lets stay strong together.">We won&#39;t be separated forever. So until then, lets stay strong together.</a><a href="//www.tickcounter.com/" title="Countdown">Countdown</a></div><style>.tcw:after { content: ''; display: block; margin-top: 25%; }</style><script>(function(d, s, id) { var js, pjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//www.tickcounter.com/static/js/loader.js"; pjs.parentNode.insertBefore(js, pjs); }(document, 'script', 'tickcounter-sdk'));</script>
+
+    <section id="three" class="no-padding">
+        <div class="container-fluid">
+            <div class="row no-gutter">
+                <h1 class="cursive text-center"></h1>
+                <div class="col-lg-4 col-sm-6">
+                        <img src="./assets/1.jpg" class="img-responsive" alt="Image 1">
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                        <img src="./assets/2.jpg" class="img-responsive" alt="Image 2">
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                        <img src="./assets/3.jpg" class="img-responsive" alt="Image 3">
+                </div>
+                        <h1 class="cursive text-center">You Are My One In Six Billion</h1>
+          <hr>
+                <div class="col-lg-4 col-sm-6">
+                        <img src="./assets/4.jpg" class="img-responsive" alt="Image 4">
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                        <img src="./assets/5.jpg" class="img-responsive" alt="Image 5">
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                        <img src="./assets/6.jpg" class="img-responsive" alt="Image 6">
+                </div>
+                <h1 class="cursive text-center">Let's Flip A Coin. Heads, I'm Yours. Tails, You're Mine.</h1>
+                <hr>
+                <div class="col-lg-4 col-sm-6">
+                        <img src="./assets/10.jpg" class="img-responsive" alt="Image 10">
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                        <img src="./assets/11.jpg" class="img-responsive" alt="Image 11">
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                        <img src="./assets/12.jpg" class="img-responsive" alt="Image 12">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="galleryModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+        	<div class="modal-body">
+        		<img src="" id="galleryImage" class="img-responsive" />
+        		<p>
+        		    <br/>
+        		    <button class="btn btn-primary btn-lg center-block" data-dismiss="modal" aria-hidden="true">Close <i class="ion-android-close"></i></button>
+        		</p>
+        	</div>
+        </div>
+        </div>
+    </div>
+    <!--scripts loaded here -->
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/jquery.easing.min.js"></script>
+    <script src="./js/wow.js"></script>
+    <script src="./js/scripts.js"></script>
+    <script>
+    /*
+* Basic Count Up from Date and Time
+* Author: @mrwigster / trulycode.com
+*/
+window.onload=function() {
+  // Month,Day,Year,Hour,Minute,Second
+  upTime('dec,19,2016,00:00:00'); // ****** Change this line!
+}
+function upTime(countTo) {
+  now = new Date();
+  countTo = new Date(countTo);
+  difference = (now-countTo);
+
+  days=Math.floor(difference/(60*60*1000*24)*1);
+  hours=Math.floor((difference%(60*60*1000*24))/(60*60*1000)*1);
+  mins=Math.floor(((difference%(60*60*1000*24))%(60*60*1000))/(60*1000)*1);
+  secs=Math.floor((((difference%(60*60*1000*24))%(60*60*1000))%(60*1000))/1000*1);
+
+  document.getElementById('days').firstChild.nodeValue = days;
+  document.getElementById('hours').firstChild.nodeValue = hours;
+  document.getElementById('minutes').firstChild.nodeValue = mins;
+  document.getElementById('seconds').firstChild.nodeValue = secs;
+
+  clearTimeout(upTime.to);
+  upTime.to=setTimeout(function(){ upTime(countTo); },1000);
+}
+</script>
+  </body>
+</html>
