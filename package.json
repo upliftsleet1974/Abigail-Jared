@@ -6,4 +6,4 @@
   "scripts": {
     "start": "NODE_ENV=production harp server -p $PORT",
     "dev": "harp server"
-  },
+  }
